@@ -27,6 +27,7 @@ _This is the first version of the boilerplate, all contributions are very welcom
 - css concatenation, minification and vendor prefixing
 - image optimization with imagemin
 - lazy load images with jquery.unveil
+- automated linting and deployment with travis-ci
 - github pages deployment script
 
 ## Directory Structure
