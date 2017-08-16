@@ -64,6 +64,7 @@ read package.json for more details
 - support hugo templates. ( tho it probably makes more sense to add optimizations to hugo itself )
 - use webp images in chrome
 - pwa features maybe.
+- ditch jquery ?
 
 ## Contributing
 
