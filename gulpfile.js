@@ -15,11 +15,9 @@ gulp.task('optimize-images', () => {
     .pipe(gulp.dest('static/img'))
 })
 
-gulp.task('deploy', function() {
+gulp.task('deploy', () => {
   return gulp.src('./public/**/*')
-    .pipe($.ghPages());
-});
-
-gulp.task('clear-cache', function () {
-  $.cache.clearAll()
+    .pipe($.ghPages())
 })
+
+gulp.task('clear-cache', () => $.cache.clearAll())

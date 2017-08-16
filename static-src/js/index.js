@@ -4,5 +4,5 @@ require('bootstrap-sass')
 require('./libs/jquery.unveil')
 
 // import site scripts
-require('./clean-blog')
+require('./libs/clean-blog')
 require('./fasthugo')

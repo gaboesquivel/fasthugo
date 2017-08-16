@@ -1,2 +1,2 @@
-//code written for fasthugo boilerplate
+// code written for fasthugo boilerplate
 $(document).ready(() => $('img').unveil())

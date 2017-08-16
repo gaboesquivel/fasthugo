@@ -8,7 +8,7 @@
     "minify": "parallelshell 'npm run minify:css' 'npm run minify:js'",
     "watch": "parallelshell 'npm run watch:css' 'npm run watch:js' 'npm run watch:img'",
     "start": "parallelshell 'npm run watch:css' 'npm run watch:js' 'npm run watch:img' 'hugo server -D'",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "standard",
     "deploy": "hugo -d public/ && gulp deploy",
     "predeploy": "npm run build && npm run minify",
     "prestart": "npm run build",
@@ -47,10 +47,17 @@
     "onchange": "^3.2.1",
     "parallelshell": "^3.0.1",
     "postcss": "^6.0.8",
+    "standard": "^10.0.3",
     "uglify-es": "^3.0.27"
   },
   "dependencies": {
     "bootstrap-sass": "^3.3.7",
     "jquery": "^3.2.1"
+  },
+  "standard": {
+    "ignore": [
+      "/static-src/js/libs"
+    ],
+    "globals": [ "$", "jQuery" ]
   }
 }
