@@ -30,19 +30,20 @@ _This is the first version of the boilerplate, all contributions are very welcom
 - github pages deployment script
 
 ## Directory Structure
-
+```
 .
-├── archetypes              # Hugo archetypes for the hugo cli
-├── content                 # Markdown files used to generate the site
-├── layouts                 # Hugo html templates for the site generator
-├── public                  # Generated static website
-├── static                  # Generated static files from `static-src`
-├── static-src              # Sass, JS and image source files
-├── config.toml             # Hugo config file
-├── gulpfile.js             # Gulp build tasks
-├── package.json            # Project metadata and npm scripts
+├── archetypes              -> Hugo archetypes for the hugo cli
+├── content                 -> Markdown files used to generate the site
+├── layouts                 -> Hugo html templates for the site generator
+├── public                  -> Generated static website
+├── static                  -> Generated static files from static-src
+├── static-src              -> Sass, JS and image source files
+├── config.toml             -> Hugo config file
+├── gulpfile.js             -> Gulp build tasks
+├── package.json            -> Project metadata and npm scripts
 ├── LICENSE
 └── README.md
+```
 
 ## NPM Scripts
 
@@ -65,7 +66,7 @@ Read the [contributing guidelines](CONTRIBUTING.md) for details.
 
 ## License
 
-The MIT License (MIT). 
+The MIT License (MIT).
 See [LICENSE](https://github.com/gaboesquivel/fasthugo/LICENSE) for more info
 
 ---
