@@ -1,0 +1,6 @@
+public/
+.publish/
+node_modules/
+static/css
+static/js
+static/img

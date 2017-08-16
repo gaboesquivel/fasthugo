@@ -1,0 +1,18 @@
+languageCode = "en-us"
+title = "Fast Hugo"
+googleAnalytics = "xx-xxx-x"
+baseurl = "https://gaboesquivel.com/fasthugo"
+canonifyURLs = false
+rssLink = ""
+
+[params]
+  description = "Optimized Hugo Website Boilerplate."
+  email = "hello@fasthugo.com"
+  dateForm = "Monday, Jan 2, 2006"
+
+[permalinks]
+  post = ":year/:title/"
+
+[[menu.main]]
+    name = "contact"
+    url = "/contact/"
