@@ -59,6 +59,7 @@ read package.json for more details
 
 ## TODO
 
+- verify multiplatform support. Tested in Ubuntu Gnome 17.
 - automate srcset images for better performance and resolution ( lovell/sharp looks interesting )
 - support hugo templates. ( tho it probably makes more sense to add optimizations to hugo itself )
 - use webp images in chrome
