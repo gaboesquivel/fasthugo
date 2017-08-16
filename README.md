@@ -1,5 +1,8 @@
 # fasthugo
-Optimized Hugo Website Boilerplate
+Optimized Hugo Website/Blog Boilerplate based on [Start Bootstrap Clean Blog](http://startbootstrap.com/template-overviews/clean-blog/).
+
+![Screenshot](https://raw.githubusercontent.com/gaboesquivel/fasthugo/master/.images/theme.png)
+
 
 ## Contents
 
