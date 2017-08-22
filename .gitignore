@@ -1,5 +1,6 @@
 public/
 .publish/
+.images/
 node_modules/
 static/css
 static/js
