@@ -1,7 +1,7 @@
 languageCode = "en-us"
 title = "Fast Hugo"
 googleAnalytics = "xx-xxx-x"
-baseurl = "https://gaboesquivel.com/fasthugo"
+baseurl = "/"
 canonifyURLs = false
 rssLink = ""
 
